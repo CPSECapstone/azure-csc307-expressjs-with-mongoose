@@ -75,3 +75,4 @@ jobs:
           slot-name: "Production"
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_2146A2410E69481DAC59259E64D0BF55 }}
           package: .
+        # if you don't use the zip function, put package: ${{AZURE_WEBAPP_PACKAGE_PATH}}
